@@ -1,0 +1,70 @@
+/* 1. Top Right Diagonal Gradient Accent (Bold Edition) */
+.bg-pattern-top-right-bold {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #4F7D7E; /* Bold Faded Blue */
+  background-image: radial-gradient(
+    circle at 90% 10%,
+    rgba(224, 120, 166, 0.7) 0%,   /* Bold Faded Pink */
+    rgba(139, 92, 246, 0.55) 35%,  /* Bold Faded Purple */
+    rgba(200, 90, 90, 0.4) 60%,    /* Bold Faded Red */
+    transparent 85%
+  );
+  background-attachment: fixed;
+}
+
+/* 2. Step Stacking Gradient Pattern (Bold Edition) */
+.bg-pattern-step-bold {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #4F7D7E; /* Bold Faded Blue Base */
+  background-image: linear-gradient(
+    135deg,
+    rgba(224, 120, 166, 0.45) 25%,  /* Bold Faded Pink */
+    transparent 25%,
+    transparent 50%,
+    rgba(139, 92, 246, 0.4) 50%,    /* Bold Faded Purple */
+    rgba(139, 92, 246, 0.4) 75%,
+    transparent 75%,
+    transparent
+  );
+  background-size: 4rem 4rem;
+}
+
+/* 3. Wavy Layered Gradient Pattern (Bold Edition) */
+.bg-pattern-wavy-bold {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #4F7D7E; /* Bold Faded Blue Base */
+  background-image: 
+    radial-gradient(ellipse at 50% 30%, rgba(224, 120, 166, 0.5) 0%, transparent 60%),  /* Bold Faded Pink */
+    radial-gradient(ellipse at 20% 70%, rgba(139, 92, 246, 0.55) 0%, transparent 50%), /* Bold Faded Purple */
+    radial-gradient(ellipse at 80% 80%, rgba(200, 90, 90, 0.45) 0%, transparent 55%);  /* Bold Faded Red */
+  background-size: 200% 200%;
+  background-attachment: fixed;
+}
+
+/* 4. Milky Soft Depth Gradient Blend (Bold Edition) */
+.bg-pattern-milky-bold {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #4F7D7E; /* Bold Faded Blue Base */
+  background-image: 
+    radial-gradient(circle at 30% 20%, rgba(255, 255, 255, 0.5) 0%, transparent 45%),
+    radial-gradient(circle at 70% 60%, rgba(224, 120, 166, 0.45) 0%, transparent 50%), /* Bold Faded Pink */
+    radial-gradient(circle at 40% 80%, rgba(139, 92, 246, 0.4) 0%, transparent 55%);   /* Bold Faded Purple */
+  background-attachment: fixed;
+}
+
+/* 5. Drop / Water Ripple Point Gradient Pattern (Bold Edition) */
+.bg-pattern-drop-bold {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #4F7D7E; /* Bold Faded Blue Base */
+  background-image: 
+    radial-gradient(circle at 50% 50%, rgba(200, 90, 90, 0.5) 0%, rgba(224, 120, 166, 0.3) 25%, transparent 55%),
+    radial-gradient(circle at 20% 30%, rgba(139, 92, 246, 0.45) 0%, transparent 45%),
+    radial-gradient(circle at 80% 70%, rgba(224, 120, 166, 0.45) 0%, transparent 45%);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}

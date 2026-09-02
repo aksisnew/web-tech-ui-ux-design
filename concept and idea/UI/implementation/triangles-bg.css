@@ -1,0 +1,24 @@
+/* Scrapbook Triangles Background Pattern */
+.bg-pattern-scrapbook-triangles {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #4F7D7E; /* Bold Faded Blue Base */
+  background-image: 
+    /* Bold Faded Pink Triangles */
+    conic-gradient(from 45deg at 15% 20%, #E078A6 45deg, transparent 45deg),
+    conic-gradient(from 120deg at 75% 65%, #E078A6 45deg, transparent 45deg),
+    
+    /* Bold Faded Purple Triangles */
+    conic-gradient(from 200deg at 85% 25%, #8B5CF6 45deg, transparent 45deg),
+    conic-gradient(from 30deg at 30% 75%, #8B5CF6 45deg, transparent 45deg),
+    
+    /* Bold Faded Red Triangles */
+    conic-gradient(from 290deg at 50% 15%, #C85A5A 45deg, transparent 45deg),
+    conic-gradient(from 160deg at 60% 85%, #C85A5A 45deg, transparent 45deg),
+    
+    /* Soft Overlapping Background Accents */
+    radial-gradient(circle at 50% 50%, rgba(224, 120, 166, 0.15) 0%, transparent 60%);
+
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}

@@ -1,0 +1,27 @@
+/* Scrapbook Floating Bubbles Background Pattern */
+.bg-pattern-bubbles {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #4F7D7E; /* Bold Faded Blue Base */
+  background-image: 
+    /* Bold Faded Pink Bubbles */
+    radial-gradient(circle at 18vw 25vh, #E078A6 0rem, #E078A6 1.75rem, transparent 1.85rem),
+    radial-gradient(circle at 72vw 68vh, #E078A6 0rem, #E078A6 2.5rem, transparent 2.6rem),
+
+    /* Bold Faded Purple Bubbles */
+    radial-gradient(circle at 82vw 22vh, #8B5CF6 0rem, #8B5CF6 2.25rem, transparent 2.35rem),
+    radial-gradient(circle at 25vw 78vh, #8B5CF6 0rem, #8B5CF6 1.5rem, transparent 1.6rem),
+
+    /* Bold Faded Red Bubbles */
+    radial-gradient(circle at 45vw 15vh, #C85A5A 0rem, #C85A5A 1.25rem, transparent 1.35rem),
+    radial-gradient(circle at 60vw 82vh, #C85A5A 0rem, #C85A5A 2rem, transparent 2.1rem),
+
+    /* Small Accent Bubbles (Faded Pink, Purple & White) */
+    radial-gradient(circle at 35vw 40vh, #E078A6 0rem, #E078A6 0.6rem, transparent 0.7rem),
+    radial-gradient(circle at 68vw 48vh, #8B5CF6 0rem, #8B5CF6 0.75rem, transparent 0.85rem),
+    radial-gradient(circle at 30vw 62vh, rgba(255, 255, 255, 0.4) 0rem, rgba(255, 255, 255, 0.4) 0.5rem, transparent 0.6rem);
+
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}

@@ -1,0 +1,37 @@
+/* Scrapbook Randomly Placed Rectangles Background Pattern */
+.bg-pattern-scrapbook-rectangles {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #4F7D7E; /* Bold Faded Blue Base */
+  background-image: 
+    /* Bold Faded Pink Rectangles (Horizontal & Vertical) */
+    linear-gradient(#E078A6, #E078A6),
+    linear-gradient(#E078A6, #E078A6),
+
+    /* Bold Faded Purple Rectangles */
+    linear-gradient(#8B5CF6, #8B5CF6),
+    linear-gradient(#8B5CF6, #8B5CF6),
+
+    /* Bold Faded Red Rectangles */
+    linear-gradient(#C85A5A, #C85A5A),
+    linear-gradient(#C85A5A, #C85A5A);
+
+  background-position: 
+    12vw 18vh,   /* Pink Horizontal */
+    76vw 62vh,   /* Pink Vertical */
+    80vw 14vh,   /* Purple Vertical */
+    22vw 74vh,   /* Purple Horizontal */
+    45vw 10vh,   /* Red Small Horizontal */
+    60vw 80vh;   /* Red Large Horizontal */
+
+  background-size: 
+    5rem 2.25rem,
+    2.5rem 6rem,
+    3rem 7rem,
+    6.5rem 2.75rem,
+    4rem 1.75rem,
+    7rem 3.25rem;
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}

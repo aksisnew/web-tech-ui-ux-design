@@ -1,0 +1,45 @@
+/* Scrapbook Scattered Squares Background Pattern */
+.bg-pattern-scrapbook-squares {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #4F7D7E; /* Bold Faded Blue Base */
+  background-image: 
+    /* Bold Faded Pink Squares (Angled Linear Cuts) */
+    linear-gradient(45deg, #E078A6 2.5rem, transparent 2.5rem),
+    linear-gradient(210deg, #E078A6 3rem, transparent 3rem),
+
+    /* Bold Faded Purple Squares */
+    linear-gradient(135deg, #8B5CF6 2rem, transparent 2rem),
+    linear-gradient(315deg, #8B5CF6 3.5rem, transparent 3.5rem),
+
+    /* Bold Faded Red Squares */
+    linear-gradient(15deg, #C85A5A 2.25rem, transparent 2.25rem),
+    linear-gradient(195deg, #C85A5A 2.75rem, transparent 2.75rem),
+
+    /* Crisp Cut Grid Layering */
+    linear-gradient(rgba(255, 255, 255, 0.08) 0.125rem, transparent 0.125rem),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.08) 0.125rem, transparent 0.125rem);
+
+  background-position: 
+    15vw 12vh, 
+    75vw 68vh, 
+    82vw 18vh, 
+    28vw 78vh, 
+    48vw 10vh, 
+    62vw 84vh, 
+    0 0, 
+    0 0;
+    
+  background-size: 
+    100% 100%, 
+    100% 100%, 
+    100% 100%, 
+    100% 100%, 
+    100% 100%, 
+    100% 100%, 
+    3rem 3rem, 
+    3rem 3rem;
+    
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, repeat, repeat;
+  background-attachment: fixed;
+}

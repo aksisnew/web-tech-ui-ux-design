@@ -1,0 +1,27 @@
+/* Scrapbook Color Splash Gradient Background */
+.bg-pattern-color-splash {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #4F7D7E; /* Bold Faded Blue Base */
+  background-image: 
+    /* Bold Faded Pink Splashes */
+    radial-gradient(circle at 12% 18%, #E078A6 0%, rgba(224, 120, 166, 0.8) 12%, transparent 28%),
+    radial-gradient(circle at 82% 72%, #E078A6 0%, rgba(224, 120, 166, 0.75) 10%, transparent 24%),
+
+    /* Bold Faded Purple Splashes */
+    radial-gradient(circle at 75% 22%, #8B5CF6 0%, rgba(139, 92, 246, 0.8) 14%, transparent 30%),
+    radial-gradient(circle at 22% 78%, #8B5CF6 0%, rgba(139, 92, 246, 0.7) 11%, transparent 26%),
+
+    /* Bold Faded Red Splashes */
+    radial-gradient(circle at 48% 12%, #C85A5A 0%, rgba(200, 90, 90, 0.85) 9%, transparent 22%),
+    radial-gradient(circle at 62% 88%, #C85A5A 0%, rgba(200, 90, 90, 0.75) 13%, transparent 28%),
+
+    /* Paint Droplet Accents */
+    radial-gradient(circle at 35% 42%, #E078A6 0.35rem, transparent 0.4rem),
+    radial-gradient(circle at 68% 55%, #8B5CF6 0.5rem, transparent 0.55rem),
+    radial-gradient(circle at 28% 65%, #C85A5A 0.4rem, transparent 0.45rem);
+
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}

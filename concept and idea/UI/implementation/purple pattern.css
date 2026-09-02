@@ -1,0 +1,66 @@
+/* Scrapbook Geometric Shapes on Bold Faded Purple Base */
+.bg-pattern-scrapbook-purple {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #8B5CF6; /* Bold Faded Purple Base */
+  background-image: 
+    /* --- RECTANGLES --- */
+    /* Bold Faded Pink Rectangles */
+    linear-gradient(#E078A6, #E078A6),
+    linear-gradient(#E078A6, #E078A6),
+    /* Bold Faded Blue Rectangles */
+    linear-gradient(#4F7D7E, #4F7D7E),
+    linear-gradient(#4F7D7E, #4F7D7E),
+
+    /* --- SQUARES --- */
+    /* Bold Faded Red Squares */
+    linear-gradient(#C85A5A, #C85A5A),
+    linear-gradient(#C85A5A, #C85A5A),
+    /* Crisp White Square Accents */
+    linear-gradient(rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0.35)),
+
+    /* --- TRIANGLES --- */
+    /* Bold Faded Pink Triangles */
+    conic-gradient(from 45deg at 18vw 25vh, #E078A6 45deg, transparent 45deg),
+    /* Bold Faded Red Triangles */
+    conic-gradient(from 135deg at 72vw 78vh, #C85A5A 45deg, transparent 45deg),
+    /* Bold Faded Blue Triangles */
+    conic-gradient(from 270deg at 52vw 15vh, #4F7D7E 45deg, transparent 45deg);
+
+  background-position: 
+    /* Rectangles (Pos X, Pos Y) */
+    12vw 18vh, 
+    76vw 62vh, 
+    80vw 14vh, 
+    22vw 74vh, 
+
+    /* Squares (Pos X, Pos Y) */
+    45vw 10vh, 
+    60vw 80vh, 
+    34vw 48vh,
+
+    /* Triangles (Base Coverage) */
+    0 0, 
+    0 0, 
+    0 0;
+
+  background-size: 
+    /* Rectangles Size */
+    5rem 2.25rem,
+    2.5rem 6rem,
+    3rem 7rem,
+    6.5rem 2.75rem,
+
+    /* Squares Size */
+    3.5rem 3.5rem,
+    4.5rem 4.5rem,
+    2rem 2rem,
+
+    /* Triangles Canvas Layer */
+    100% 100%, 
+    100% 100%, 
+    100% 100%;
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}

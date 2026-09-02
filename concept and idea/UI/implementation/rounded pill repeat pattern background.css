@@ -1,0 +1,25 @@
+/* Scrapbook Pill-Shaped Floating Pattern */
+.bg-pattern-scrapbook-pills {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #4F7D7E; /* Bold Faded Blue Base */
+  background-image: 
+    /* Bold Faded Pink Horizontal & Vertical Pills */
+    radial-gradient(ellipse 2.5rem 1rem at 18vw 22vh, #E078A6 99%, transparent 100%),
+    radial-gradient(ellipse 1rem 3rem at 78vw 64vh, #E078A6 99%, transparent 100%),
+
+    /* Bold Faded Purple Horizontal & Angled Pills */
+    radial-gradient(ellipse 3rem 1.25rem at 82vw 16vh, #8B5CF6 99%, transparent 100%),
+    radial-gradient(ellipse 1.25rem 2.75rem at 25vw 72vh, #8B5CF6 99%, transparent 100%),
+
+    /* Bold Faded Red Compact Pills */
+    radial-gradient(ellipse 2.25rem 0.875rem at 52vw 12vh, #C85A5A 99%, transparent 100%),
+    radial-gradient(ellipse 0.875rem 2.5rem at 64vw 82vh, #C85A5A 99%, transparent 100%),
+
+    /* Soft Depth Dots */
+    radial-gradient(circle at 40vw 45vh, rgba(255, 255, 255, 0.25) 0.5rem, transparent 0.6rem);
+
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}

@@ -1,0 +1,17 @@
+:root {
+ 
+  --text-wrap-mode: pretty;        
+  --text-overflow-behavior: ellipsis; 
+  --text-break-rule: break-word;    
+
+  /* Axis Overflow Rules */
+  --overflow-x-default: hidden;     
+  --overflow-y-default: auto;    
+  --overflow-canvas: clip;          
+
+  /* Scrollbar Behavior & Aesthetics */
+  --scroll-behavior: smooth;     
+  --scroll-gutter-mode: stable;     
+  --scrollbar-width: 0.5rem;        
+  --scrollbar-radius: 0.25rem;     
+}

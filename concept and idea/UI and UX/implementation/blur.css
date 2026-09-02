@@ -1,0 +1,13 @@
+blue-card {
+  width: 20rem;
+  height: 12rem;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  border: 0.125rem solid rgba(255, 255, 255, 0.4);
+  background: radial-gradient(circle at top left, rgba(255, 255, 255, 0.2), transparent 70%),
+              rgba(122, 158, 159, 0.85);
+  backdrop-filter: blur(0.25rem);
+  -webkit-backdrop-filter: blur(0.25rem);
+  transform: translateZ(0);
+  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.12);
+}

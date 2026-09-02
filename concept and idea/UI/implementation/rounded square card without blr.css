@@ -1,0 +1,51 @@
+/* 1. Base Rounded Square Card (Faded Blue Surface - Sharp Layered Depth) */
+.card-rounded-square {
+  width: 14rem;
+  height: 14rem;
+  padding: 1.25rem;
+  border-radius: 1.25rem;
+  border: 0.125rem solid rgba(255, 255, 255, 0.35);
+  background: radial-gradient(circle at top left, rgba(255, 255, 255, 0.2), transparent 70%),
+              rgba(122, 158, 159, 0.95); /* Faded Blue */
+  transform: translateZ(0);
+  box-shadow: 0 0.5rem 1.25rem rgba(0, 0, 0, 0.12);
+}
+
+/* 2. Interactive Focus Square Card (Faded Pink Accent - Sharp Layered Depth) */
+.card-rounded-square-focus {
+  width: 14rem;
+  height: 14rem;
+  padding: 1.25rem;
+  border-radius: 1.25rem;
+  border: 0.125rem solid rgba(255, 255, 255, 0.45);
+  background: radial-gradient(circle at top left, rgba(255, 255, 255, 0.25), transparent 70%),
+              rgba(234, 168, 198, 0.95); /* Faded Pink */
+  transform: translateZ(0);
+  box-shadow: 0 0.5rem 1.25rem rgba(0, 0, 0, 0.12);
+}
+
+/* 3. Priority Alert Square Card (Faded Red Accent - Sharp Layered Depth) */
+.card-rounded-square-alert {
+  width: 14rem;
+  height: 14rem;
+  padding: 1.25rem;
+  border-radius: 1.25rem;
+  border: 0.125rem solid rgba(255, 255, 255, 0.4);
+  background: radial-gradient(circle at top left, rgba(255, 255, 255, 0.2), transparent 70%),
+              rgba(217, 138, 138, 0.95); /* Faded Red */
+  transform: translateZ(0);
+  box-shadow: 0 0.5rem 1.25rem rgba(0, 0, 0, 0.12);
+}
+
+/* 4. Secondary Milestone Square Card (Faded Purple Accent - Sharp Layered Depth) */
+.card-rounded-square-milestone {
+  width: 14rem;
+  height: 14rem;
+  padding: 1.25rem;
+  border-radius: 1.25rem;
+  border: 0.125rem solid rgba(255, 255, 255, 0.4);
+  background: radial-gradient(circle at top left, rgba(255, 255, 255, 0.22), transparent 70%),
+              rgba(167, 139, 250, 0.95); /* Faded Purple */
+  transform: translateZ(0);
+  box-shadow: 0 0.5rem 1.25rem rgba(0, 0, 0, 0.12);
+}

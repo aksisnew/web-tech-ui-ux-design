@@ -1,0 +1,22 @@
+/* Free-Flowing Vibrant Text Gradient (Bold Accent Variants) */
+.text-gradient-flow {
+  font-weight: 800;
+  letter-spacing: -0.025em;
+  
+  /* Bold color variants: Deep Faded Red -> Vibrant Faded Pink -> Vivid Faded Purple -> Crisp Faded Blue */
+  background: linear-gradient(
+    135deg,
+    #C85A5A 0%,   /* Bold Faded Red */
+    #E078A6 35%,  /* Bold Faded Pink */
+    #8B5CF6 70%,  /* Bold Faded Purple */
+    #4F7D7E 100%  /* Bold Faded Blue */
+  );
+  
+  /* Clip gradient to text rendering layer */
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  /* Hardware acceleration for smooth dynamic scaling */
+  transform: translateZ(0);
+}
